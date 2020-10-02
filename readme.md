@@ -14,7 +14,32 @@ Justamente pela segunda característica do nosso "OS" - *open-source*, também d
 #### Plataforma rpgos.net
 Disponibilizamos uma plataforma para gestão de todo o conteúdo do RPGOS. Em rpgos.net você poderá buscar por milhares de habilidades, aventuras, cenários, monstros, mapas, NPCs, personagens prontos, mapas e muito mais. Veja o que está bombando, vote no conteúdo que mais curtiu, discuta em nossos foruns e até mesmo ganhe dinheiro vendendo conteúdos exclusivos para nossa comunidade. Sim, nosso intuito é que você possa viver de RPG! É o nosso sonho, pq não pode ser o seu também?
 
+## Objetivo
+A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, nossa equipe vai avaliar (só pra ver se não tem uma foto de chibata no meio né?), mas quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma rpgos.net você pode votar em todo conteúdo que for gerado pela comunidade.
+
 ## Vamos ao que interessa
+### Como funciona?
+Escolhemos o modelo de pontos para governar o sistema, porque acreditamos que ele permita a maior flexibilidade e expressão da criatividade que gostaríamos de promover nas mesas de RPGOS. Tudo é possível dentro de RPGOS, mesmo que um personagem não possua a capacidade de levitar, ele pode tentar! Todas as ações em RPGOS seguem o básico:
+```
+dado + bonus >= dificuldade
+```
+**Regra número 1 do RPGOS** nada é uma regra. Se você quiser por exemplo que as rolagens de ação sejam menores que a dificuldade (e não menor ou igual a), claro que você pode! Queremos dar o maior poder aos jogadores e narradores, para construirem juntos uma aventura épica (e não seguir caminhos pré-definidos determinados por classes ou arquétipos.
+
+#### Dado
+
+#### Bonus
+
+#### Dificuldade
+
+#### Esforço
+
+#### Superação
+
+### Leveless
+**Regra número 2 do RPGOS** Não existe nível. Não existe uma progressão linear para seu personagem, ou multiclasses
+
+Seu mago conseguiu levantar uma rocha extremamente pesada? Ele vai ganhar alguns músculos ali sim!
+
 - For
 	- Físico (FF)
 	- Mental (FM)
