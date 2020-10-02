@@ -15,7 +15,7 @@ Justamente pela segunda característica do nosso "OS" - *open-source*, também d
 Disponibilizamos uma plataforma para gestão de todo o conteúdo do RPGOS. Em rpgos.net você poderá buscar por milhares de habilidades, aventuras, cenários, monstros, mapas, NPCs, personagens prontos, mapas e muito mais. Veja o que está bombando, vote no conteúdo que mais curtiu, discuta em nossos foruns e até mesmo ganhe dinheiro vendendo conteúdos exclusivos para nossa comunidade. Sim, nosso intuito é que você possa viver de RPG! É o nosso sonho, pq não pode ser o seu também?
 
 ## Objetivo
-A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, nossa equipe vai avaliar (só pra ver se não tem uma foto de chibata no meio né?), mas quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma rpgos.net você pode votar em todo conteúdo que for gerado pela comunidade.
+A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, e quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma rpgos.net você pode votar em todo conteúdo que for gerado pela comunidade.
 
 ## Vamos ao que interessa
 ### Como funciona?
@@ -30,6 +30,9 @@ dado + bonus >= dificuldade
 #### Bonus
 
 #### Dificuldade
+Em RPGOS toda a ação possui um valor numérico de dificuldade para realizar. Sugerimos que as dificuldades sejam equivalentes aos dados do jogo (4, 6, 8, 10, 12, 20 e 100), sendo a menor, mais fácil até a maior praticamente impossível. As difculdades para realiazar uma ação serão totalmente subjetivas e decidadas pelo narrador durante a aventura. Elas podem inclusive variar de jogador para jogador (se um jogador tiver alguma limitação fisíca, talvez seja mais fácil, aumentar a dificuldade da ação para ele - promovendo até um momento de superação - do que ficar contabilizando bonus e penalidades nas fichas). Fica aqui a menção a **regra número 1**, caso tenham preferência de uma dificuldade fixa para os jogadores e aplicar penalidades nas rolagens ao invés disso.
+
+Outra sugestão para o sistema de dificuldade é o sistema de **disputa**. Como uma ação (com um custo de esforço) o alvo da ação pode fazer algo que modifique a dificuldade (seja para um valor fixo mais alto, seja para uma rolagem de dado). O exemplo mais clássico da disputa é uma jogada básica de ataque. A jogada de ataque em primeiro lugar é uma rolagem de agilidade física do personagem contra o bonus de agilidade física do inimigo. Ron tem agilidade física 2 e Jobert tem agilidade física 1. Ron joga 1d4 (dado base, uma vez que Ron não é habilidoso em nenhuma arte de combate) + 2 (bonus de agildade física). Qualquer que seja o resultado Ron acerta Jobert em situações normais (1d4+2 sempre vai ser maior que 1 - mais uma referência a **regra número 1** - se quiserem colocar falha fatal também será bem vinda - ou seja - toda rolagem 1, independente do resultado final é uma falha). Porém, ciente do perigo, Jobert vai fazer um esforço adicional e tentar desviar do golpe de Ron. Jobert não é habilidoso em desvio, então como é uma ação de agilidade, ele joga 1d4 mais seu bonus de agilidade física (1d4+1). Wow, mesmo sendo muito mais ágil Ron não conseguiu acertar Jobert nesse ringue de boxe! Ron rolou um 2 no dado (4 no total, 2 do dado + 2 do seu bonus de agilidade física), porém Jobert se esforçou muito e conseguiu desviar do golpe com um 4 no dado (total 5, 4 do dado e 1 de bonus).
 
 #### Esforço
 
@@ -42,7 +45,13 @@ Exemplo: Baj Omara, é um mago iniciante e esta peregrinando para aprender novas
 - Calcule a diferença entre o alcance e a dificuldade do teste: 10 (dificuldade) - 4 (alcance) = 6 (chamamos este resultado de **diferença**);
 - O personagem deve fazer uma rolagem de *dDiferença*, ou seja, o dado correspondente a diferença (6 aqui no caso 1d6) e deve rolar o resultado máximo deste dado (no caso 6). Qualquer outro resultado ele falha (afinal ele está dando o máximo de si).
 
+##### Consequência
+Indepedente do resultado da superação, ela é uma ação que exige extremo esforço (físico, mental ou os dois). Em caso de **sucesso** o personagem perde 1/4 dos seus pontos de esforço por 1 hora. Em caso de falha (normal, ou seja, qualquer resultado diferente de 1 e do máximo), ele perde metade dos seus pontos de esforço durante 2 horas, e em caso de falha fatal (oh no, alguma coisa deu errado), ele perde 3/4 do seu esforço durante 4 horas! Além disso, em caso de falha, o personagem não pode tentar outra superação nas próximas 6 horas (Lembrem-se da regra **número 1**, se quiserem fazer uma aventura *a la* cavaleiros do zodiaco, onde tudo é na base da superação, fiquem a vontade para remover essa contingência).
 
+##### Recompensa
+Além de conseguir superar o obstáculo, a superação evolui, melhor, faz o personagem crescer. Fica a critério do narrador quais as recompensas em uma superação bem sucedida, e vamos deixar aqui uma tabela com uma sugesestão de recompensas
+
+O personagem pode estar sempre tentando se superar e isso vai torná-lo o campeão da aventura épica.
 
  Personagem tem força física 2, e precisa levantar uma rocha, cuja dificuldade é 8. Em condições normais, é impossível que ele consiga realizar esse feito (resultado máximo 6: 1d4+2), mas ele pode tentar uma superação. 
 Para isso ele transforma a jogada da seguinte maneira:
