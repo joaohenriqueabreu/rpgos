@@ -34,11 +34,82 @@ dado + bonus >= dificuldade
 #### Esforço
 
 #### Superação
+Só porque uma ação tem dificuldade 10 e personagem só consegue tirar 5 no máximo no dado (1d4 + 1 de FF), não quer dizer que o personagem não consiga realizar qualquer ação. O personagem pode tentar fazer um ato sobrehumano (ultrapassando seus limites) e realizar essa ação em uma situação de extrema dificuldade. Recomendamos que geralmente nessas situações que o personagem ganhe pontos de habilidade, ou então ganhe um aumento de atributo (lembra do nosso mago que levantou uma rocha super pesada? É aqui que ele ganha +1 de Força Física). Vamos estudar mais afundo este exemplo.
+
+Exemplo: Baj Omara, é um mago iniciante e esta peregrinando para aprender novas magias. Ele é um estudioso do fogo (detalhe irrelevante para esse momento, mas a gente é criativo né?). Ouviu dizer que há um eremita morando em uma caverna com conhecimentos ancestrais que pode lhe ensinar o caminho da magia arcana. Enfim, chegando na caverna Baj ve que há uma pedra Muito grande impedindo a entrada na caverna. Baj não tem nenhuma habilidade que possa lhe ajudar (magia, manobra, conhecimento, nadica!). Ele vai tentar remover a pedra com sua força bruta. A dificuldade definida pelo mestre para remover a pedra é 10. É uma ação pura de força física. Baj não tem nenhum bonus de força física, e como falamos anteriormente não é **habilidoso** nem **especialista** em nada que possa lhe ajudar. Ele vai tentar então realizar uma ação de superação. Como funciona:
+
+- Calcule o alcance máximo que o personagem consegue atingir de resultado (1d4, sendo 4 o alcance máximo);
+- Calcule a diferença entre o alcance e a dificuldade do teste: 10 (dificuldade) - 4 (alcance) = 6 (chamamos este resultado de **diferença**);
+- O personagem deve fazer uma rolagem de *dDiferença*, ou seja, o dado correspondente a diferença (6 aqui no caso 1d6) e deve rolar o resultado máximo deste dado (no caso 6). Qualquer outro resultado ele falha (afinal ele está dando o máximo de si).
+
+
+
+ Personagem tem força física 2, e precisa levantar uma rocha, cuja dificuldade é 8. Em condições normais, é impossível que ele consiga realizar esse feito (resultado máximo 6: 1d4+2), mas ele pode tentar uma superação. 
+Para isso ele transforma a jogada da seguinte maneira:
+Dado da dificuldade: d2 (equivalante diferença entra a dificuldade e o alcance, mínimo d4, arredondado para o próximo dado)
+
+Exemplos:
+dif 20
+alcance d6 + 2: 8
+diferença: 12
+rolagem: d12 + 8
+
+dif: 8
+alcance: d4 + 2: 6
+diferença: 2 (d2)
+rolagem: 1d4 + 2
+(sempre transformar para o maior dado próximo, com penalidade)
+
+dif: 20
+alcance d8 + 3
+diferença: 20-(8+3)=9
+rolagem: d10 - 1
+
+dif 20
+alcance: d4
+diferença: 16
+rolagem: d20 + 4
+
+dif 20
+alcance: d4 + 1 = 5
+diferença: 15
+rolagem: d20 - 5
+
+Diferença	Rolagem
+1		1d4+3
+2		1d4+2
+3		1d4+1
+4		1d4
+5		1d6+1
+6		1d6
+7		1d8+1
+8		1d8
+9		1d10-1
+10		1d10
+11		1d12-1
+12		1d12
+13		1d20-7
+14		1d20-6
+15		1d20-5
+16		1d20-4
+17		1d20-3
+18		1d20-2
+19		1d20-1
+20		1d20
+
+, em uma jogada de superação, onde ele rola um dado - em que a dificuldade é o resultado máximo do dado, ou seja, dificuldade 8, o personagem rola um 1d8 para tentar superar o obstáculo, onde somente com um 8 ele consegue superar o obstáculo (qualquer dificuldade é aceita desde que haja uma combinação possível de dados e seu resultado máximo, exemplo: dificuldade 24 pode ser elaborada com 4d6, sendo fatalidade 4 e sucesso 24, apesar de não ser proibido é melhor evitar dificuldades não homogeneas).
+
+A consequênica da superação: 
+Sucesso: -1/4 de stamina durante 1 hora;
+Falha: -1/2 de stamina durante 1 hora;
+Fatalidade (resultado mínimo): -3/4 de stamina durante 2 hora;
 
 ### Leveless
-**Regra número 2 do RPGOS** Não existe nível. Não existe uma progressão linear para seu personagem, ou multiclasses
+**Regra número 2 do RPGOS** Não existe nível. Não existe uma progressão linear para seu personagem, ou multiclasses. Ações no jogo geram **pontos de habilidade**.
+Seu mago conseguiu levantar uma rocha extremamente pesada? Ele vai ganhar alguns músculos ali sim! Se ele vai conseguir é outra história. Esses pontos de habilidade são usados para aprender habilidades. Cada habilidade tem um custo para aprender e o jogador deve gastar esses PHs para comprar novas habilidades. Isso abre um leque de eventos e interpretações para a própria evolução do personagem, o aprendizado e crescimento do personagem, passa a ser parte da aventura. Jin Liu Bei está treinando com o mestre ancião Dong Chao Jen nos picos nevados de Horuzaki, e somente quando Jin atingir um certo patamar de força física, agilidade e agilidade mental, ele será capaz de realizar o golpe Louva-Deus da Lua, que atinge os pontos vitais e prosta o inimigo até uma morte lenta e dolorosa. **Regra número 3 do RPGOS** tudo no mundo pode ser aprendido pelos personagens. Seu paladino perdeu a fé e agora quer soltar magias arcanas, tudo bem! Ele pode seguir um caminho para tentar aprender. Claro que o próprio aprendizado de novas habilidades tem uma dificuldade e alguns pré-requisitos devem ser antigidos para que o personagem possa aprender e realizar determinada ação. John Statin quer aprender telecine, mas ele não tem nenhuma força, agilidade ou saúde mental! Poxa John me ajuda a te ajudar ne? No entanto, John pode se exercitar, estudar para crescer seu intelecto, melhorar seus atributos mentais, conhecer um telepata, aprender algo como Manifestação Psiônica (pode ser uma habilidade base para todas as demais habilidades psiônicas) e após ele conseguir 50 pontos de habildade ele consegue 
+finalmente aprender a telecinese (básica), levanta canetas e entorta colheres, para fortalecer sua telecinese, ele deve fortalecer sua força mental e juntar mais 50 pontos para "evoluir" a telecinese (todos estes conceitos serão discutidos em detalhe posteriormente). 
 
-Seu mago conseguiu levantar uma rocha extremamente pesada? Ele vai ganhar alguns músculos ali sim!
+#### Ganhando pontos de habilidade
 
 - For
 	- Físico (FF)
@@ -130,69 +201,3 @@ Consequência: O inimigo fica imobilizado, seu esforço caindo a zero. Deve faze
 Trilha: 
 - Laço melhorado (+1 na disputa de FF);
 - Habilidoso (+1 na disputa de FF);
-
-
-- Superação:
-O personagem pode tentar fazer um ato sobrehumano (ultrapassando seus limites), com algum tipo de desvantagem
-em caso de sucesso, e de acordo com a situação (consultar o narrador) esse personagem ganha pontos de aprendizado, ou ganha
-automaticamente um aumento em determinado atributo.
-
-Exemplo: Personagem tem força física 2, e precisa levantar uma rocha, cuja dificuldade é 8. Em condições normais, é impossível que ele consiga realizar esse feito (resultado máximo 6: 1d4+2), mas ele pode tentar uma superação. 
-Para isso ele transforma a jogada da seguinte maneira:
-Dado da dificuldade: d2 (equivalante diferença entra a dificuldade e o alcance, mínimo d4, arredondado para o próximo dado)
-
-Exemplos:
-dif 20
-alcance d6 + 2: 8
-diferença: 12
-rolagem: d12 + 8
-
-dif: 8
-alcance: d4 + 2: 6
-diferença: 2 (d2)
-rolagem: 1d4 + 2
-(sempre transformar para o maior dado próximo, com penalidade)
-
-dif: 20
-alcance d8 + 3
-diferença: 20-(8+3)=9
-rolagem: d10 - 1
-
-dif 20
-alcance: d4
-diferença: 16
-rolagem: d20 + 4
-
-dif 20
-alcance: d4 + 1 = 5
-diferença: 15
-rolagem: d20 - 5
-
-Diferença	Rolagem
-1		1d4+3
-2		1d4+2
-3		1d4+1
-4		1d4
-5		1d6+1
-6		1d6
-7		1d8+1
-8		1d8
-9		1d10-1
-10		1d10
-11		1d12-1
-12		1d12
-13		1d20-7
-14		1d20-6
-15		1d20-5
-16		1d20-4
-17		1d20-3
-18		1d20-2
-19		1d20-1
-20		1d20
-
-, em uma jogada de superação, onde ele rola um dado - em que a dificuldade é o resultado máximo do dado, ou seja, dificuldade 8, o personagem rola um 1d8 para tentar superar o obstáculo, onde somente com um 8 ele consegue superar o obstáculo (qualquer dificuldade é aceita desde que haja uma combinação possível de dados e seu resultado máximo, exemplo: dificuldade 24 pode ser elaborada com 4d6, sendo fatalidade 4 e sucesso 24, apesar de não ser proibido é melhor evitar dificuldades não homogeneas).
-
-A consequênica da superação: 
-Sucesso: -1/4 de stamina durante 1 hora;
-Falha: -1/2 de stamina durante 1 hora;
-Fatalidade (resultado mínimo): -3/4 de stamina durante 2 hora;
