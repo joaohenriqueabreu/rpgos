@@ -1,6 +1,6 @@
 # RPGOS - Open Source Role Playing Game
 
-Lê-se "erre-pê-gê-ô-esse".
+Lê-se "érri-pê-gê--ô-esse".
 
 ## Introdução
 
@@ -26,7 +26,7 @@ Disponibilizamos uma plataforma para gestão de todo o conteúdo do RPGOS. Em rp
 
 ## Objetivo
 
-A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, e quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma rpgos.net você pode votar em todo conteúdo que for gerado pela comunidade.
+A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, e quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma (rpgos.net)[rpgos.net] você pode votar em todo conteúdo que for gerado pela comunidade.
 
 ## Vamos ao que interessa
 
@@ -93,40 +93,38 @@ Como funciona:
 
 Abaixo temos as probabilidades de cada rolagem e seus dados equivalentes (recomendamos fortemente manter as jogadas simples e determinar dificuldades que resultem em rolagens de superação com os dados padrão para facilitar os cálculos)
 
-dado	prob
-4			25%
-6			17%
-8			13%
-10		10%
-12		8%
-20		5%
+| Dado     | Probabilidade |
+| ---------|--------------:|
+| 1d4      | 25%           |
+| 1d6      | 17%           |
+| 1d8      | 13%           |
+| 1d10     | 10%           |
+| 1d12     | 8%            |
+| 2d4      | 6%            |
+| 1d20     | 5%            |
+| 2d6      | 3%            |
+| 2d8      | 2%            |
+| 2d10     | 1%            |
+| 2d12     | .7%           |
+| 2d20     | .3%           |
 
-2 dados:
-resultado	prob
-8					6.3%
-12				2.8%
-16				1.6%
-20				1.0%
-24				0.7%
-40				0.3%
+Para sua conveniência, colocamos aqui outras probabilidades e dados (aproximados) que podem ser rolados para diferença:
 
-
-Outros resultados de dificuldade e equivalência dos dados
-Dif		Prob		Equiv
-2			50.00%	d4 (3-4)
-3			33.33%	d6 (5-6)
-5			20.00%	d10 (9-0)
-7			14.29%	d8
-9			11.11%	d10
-11		9.09%		d10
-13		7.69%		d12
-14		7.14%		d12
-15		6.67%		2d4
-16		6.25%		2d4
-17		5.88%		2d4
-18		5.56%		2d4
-19		5.26%		d20
-
+| Diferença | Probabilidade | Dado Equivalente |
+| ----------|:-------------:|-----------------:|
+| 2         | 50%           | 1d4 (3 ou 4)     |
+| 3         | 33%           | 1d6 (5 ou 6)     |
+| 5         | 20%           | 1d10 (9 ou 10)   |
+| 7         | 14%           | 1d8              |
+| 9         | 11%           | 1d10             |
+| 11        | 9%            | 1d10             |
+| 13        | 8%            | 1d12             |
+| 14        | 7%            | 1d12             |
+| 15        | 7%            | 2d4              |
+| 16        | 6%            | 2d4              |
+| 17        | 6%            | 2d4              |
+| 18        | 5%            | 1d20             |
+| 19        | 5%            | 1d20             |
 
 ##### Consequência
 Indepedente do resultado da superação, ela é uma ação que exige extremo esforço (físico, mental ou os dois). Em caso de **sucesso** o personagem perde 1/4 dos seus pontos de esforço por 1 hora. Em caso de falha (normal, ou seja, qualquer resultado diferente de 1 e do máximo), ele perde metade dos seus pontos de esforço durante 2 horas, e em caso de falha fatal (oh no, alguma coisa deu errado), ele perde 3/4 do seu esforço durante 4 horas! Além disso, em caso de falha, o personagem não pode tentar outra superação nas próximas 6 horas (Lembrem-se da regra **número 1**, se quiserem fazer uma aventura *a la* cavaleiros do zodiaco, onde tudo é na base da superação, fiquem a vontade para remover essa contingência).
@@ -197,7 +195,29 @@ finalmente aprender a telecinese (básica), levanta canetas e entorta colheres, 
 Dado 	Bonus 		Dificuldade
 Nd	+B	vs	F / Nd+B
 
-Só anota aquilo que te afeta (se não tem bonus ou penalidade, sempre será d4);
+### Equipamento
+
+Gerenciar equipamento em RPGOS também deve ser tão simples quanto criar habilidades. E para isso pensamos no uso dos equipamentos como o próprio uso de habilidades! 
+
+```
+Uma cota de malha por exemplo adiciona +3 na força física do personagem quando resistindo a ataques físicos, ou mágicos com manifestação física. Não quer dizer que o personagem fica mais forte, mas a dificuldade de causar dano nele fica mais alta.
+```
+
+## Exemplos de situações
+
+Alguns exemplos de como lidar com algumas situações em RPGOS.
+
+#### Cobertura
+
+Vassili Zaitsev está emboscado no cemitério de trens e não consegue encontrar o major Erwin König. Após mais de 12 horas, (e um bem sucedido teste de rastreamento) Vassili vê ao longe o rosto de König em um instante, no reflexo do retrovisor de uma carcaça de um carro abandonado. Vassili calcula que König esteja a mais ou menos 50m de distância dentro de um container abandonado coberto por alguns carros e destroços da cidade bombardeada. É um tiro praticamente impossível, mas vassili é um combatente treinado. Possui a habilidade sniper, que o permite atirar com 1d10. Em relação aos bônus, por seu treinamento em sniper ele é duplamente especialista, adicionando +2 em suas jogadas além dos bonus de força mental, agilidade mental e agilidade física, totalizando +7 (+2 especialista, +1 agilidade física, +2 agilidade mental e +2 força mental)! Antes o narrador pede a Vassili, pelo frio e o tempo sem comida, que ele faça um teste de força mental para estabilizar a arma. Caso de sucesso ele pode realizar o tiro, em caso de falha ele pode atirar mesmo assim, mas será uma jogada aleatória (com dificuldade a ser definida pelo narrador). Vassili possui a habilidade "frieza" o que o permite jogar um 1d8 (além do seu bonus de força mental) para situações extremas do seu corpo, que exigem concentração. O narrador define a dificuldade 4 (dificuldade extrema para seres humanos normais, mas não para Vassili). Ele rola 1d8 +2 (seu bonus de força mental) e sucesso! Um 9 (7+2)! Estabilizou com louvor (em pré testes muito bem sucedidos de dificuldade o narrador pode ainda dar um bonus adicional para o próximo teste do jogador). Pela maestria e concentração de Vassili o narrador decide dar +1 bonus na sua jogada de atirar. Tudo pronto para o tiro. 1d10+8, uma capacidade de atirar totalmente excepcional para um humano. Alcance 18, entrento o narrado diz q dadas as condições de cobertura a dificuldade para acertar König é de 26!!! É um tiro extremamente dificil, mas se há alguém que consegue fazê-lo, esse alguém é Vassili. Ele vai tentar uma superação, para isso a diferença entre a dificuldade e seu alcance é de 8, Vassili precisa de 8 em uma rolagem de 8 para acertar König. E ele consegue!!!!! Vassili rapidamente puxa o gatilho e com um belissimo 8 no dado acerta o olho do major König encerrando a longa batalha.
+
+Para um outro soldado, um soldado raso talvez, poderiamos fazer um setup diferente: como uma dificuldade maior, ou até mesmo a mesma dificuldade sabendo que o soldado só teria 1d4+1 para acertar por exemplo (ficando uma jogada de superação d20 por exemplo), ou então, ele não faz a menor ideia de onde König está e faz uma jogada de tiro aleatória (dificuldade 95 em 100).
+
+#### 
+
+## Exemplos de habilidades
+
+Aqui listamos exemplos de habilidades que podem ser utilizadas, modificadas ou ignoradas em suas campanhas. Consulte nosso compendium de habilidades em (rpgos.net)[rpgos.net] para encontrar uma listagem com milhares de habilidades criadas por nossa comunidade.
 
 Habilidade (tudo: magia, skill, ataque, defesa, ...)
 Custo: Quantos pontos o personagem deve gastar para aprender esta habilidade
@@ -266,33 +286,3 @@ Consequência: O inimigo fica imobilizado, seu esforço caindo a zero. Deve faze
 Trilha: 
 - Laço melhorado (+1 na disputa de FF);
 - Habilidoso (+1 na disputa de FF);
-
-### Equipamento
-
-Gerenciar equipamento em RPGOS também deve ser tão simples quanto criar habilidades. E para isso pensamos no uso dos equipamentos como o próprio uso de habilidades! 
-
-```
-Uma cota de malha por exemplo adiciona +3 na força física do personagem quando resistindo a ataques físicos, ou mágicos com manifestação física. Não quer dizer que o personagem fica mais forte, mas a dificuldade de causar dano nele fica mais alta.
-```
-
-## Exemplos de situações
-
-Alguns exemplos de como lidar com algumas situações em RPGOS.
-
-#### Cobertura
-
-Vassili Zaitsev está emboscado no cemitério de trens e não consegue encontrar o major Erwin König. Após mais de 12 horas, (e um bem sucedido teste de rastreamento) Vassili vê ao longe o rosto de König em um instante, no reflexo do retrovisor de uma carcaça de um carro abandonado. Vassili calcula que König esteja a mais ou menos 50m de distância dentro de um container abandonado coberto por alguns carros e destroços da cidade bombardeada. É um tiro praticamente impossível, mas vassili é um combatente treinado. Possui a habilidade sniper, que o permite atirar com 1d10. Em relação aos bônus, por seu treinamento em sniper ele é duplamente especialista, adicionando +2 em suas jogadas além dos bonus de força mental, agilidade mental e agilidade física, totalizando +7 (+2 especialista, +1 agilidade física, +2 agilidade mental e +2 força mental)! Antes o narrador pede a Vassili, pelo frio e o tempo sem comida, que ele faça um teste de força mental para estabilizar a arma. Caso de sucesso ele pode realizar o tiro, em caso de falha ele pode atirar mesmo assim, mas será uma jogada aleatória (com dificuldade a ser definida pelo narrador). Vassili possui a habilidade "frieza" o que o permite jogar um 1d8 (além do seu bonus de força mental) para situações extremas do seu corpo, que exigem concentração. O narrador define a dificuldade 4 (dificuldade extrema para seres humanos normais, mas não para Vassili). Ele rola 1d8 +2 (seu bonus de força mental) e sucesso! Um 9 (7+2)! Estabilizou com louvor (em pré testes muito bem sucedidos de dificuldade o narrador pode ainda dar um bonus adicional para o próximo teste do jogador). Pela maestria e concentração de Vassili o narrador decide dar +1 bonus na sua jogada de atirar. Tudo pronto para o tiro. 1d10+8, uma capacidade de atirar totalmente excepcional para um humano. Alcance 18, entrento o narrado diz q dadas as condições de cobertura a dificuldade para acertar König é de 26!!! É um tiro extremamente dificil, mas se há alguém que consegue fazê-lo, esse alguém é Vassili. Ele vai tentar uma superação, para isso a diferença entre a dificuldade e seu alcance é de 8, Vassili precisa de 8 em uma rolagem de 8 para acertar König. E ele consegue!!!!! Vassili rapidamente puxa o gatilho e com um belissimo 8 no dado acerta o olho do major König encerrando a longa batalha.
-
-Para um outro soldado, um soldado raso talvez, poderiamos fazer um setup diferente: como uma dificuldade maior, ou até mesmo a mesma dificuldade sabendo que o soldado só teria 1d4+1 para acertar por exemplo (ficando uma jogada de superação d20 por exemplo), ou então, ele não faz a menor ideia de onde König está e faz uma jogada de tiro aleatória (dificuldade 95 em 100).
-
-#### 
-
-## Exemplos de habilidades
-
-Aqui listamos exemplos de habilidades que podem ser utilizadas, modificadas ou ignoradas em suas campanhas. Consulte nosso compendium de habilidades em (rpgos.net)[rpgos.net] para encontrar uma listagem com milhares de habilidades criadas por nossa comunidade.
-
-| Tables        | Are           |
-| ------------- |--------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
