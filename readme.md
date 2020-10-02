@@ -1,24 +1,32 @@
 # RPGOS - Open Source Role Playing Game
 
 ## Introdução
+
 Já se sentiu frustrado alguma vez quando em sua aventura de RPG você fez algo extraordinário e no fim do dia você ganha a mesma quantidade de XP que seus colegas? Acha muito linear as progressões dos RPGs convencionais? Sente que não consegue criar muito ou reagir de formas diferentes a situações em seu jogo (somente dispel funciona contra aquela barreira de fogo, mas o que acontece se eu jogar um balde d'água)? 
 
 
 ## Desafio
+
 ### Sistema Operacional
+
 O próposito do RPGOS é criar (mais um! yeee) sistema de RPG genérico, mas nosso foco é no "sistema operacional" (como windows, macOS, linux e etc). Nosso desafio aqui é criar um set de regras extremamente simples e abrangente, ou seja, se este livro (será que vai virar um livro?) tiver mais de 20 páginas, nos falhamos! Aqui você não vai encontrar nenhum descritivo extenso de equipamentos, magias, perícias e etc. 
 
 ### Open source
+
 Justamente pela segunda característica do nosso "OS" - *open-source*, também derivado do mercado de tecnologia, os softwares open source, são aqueles softwares de código aberto, onde o dono do software é a comunidade! E aqui não é diferente, a comunidade é dona do RPGOS. A comunidade é responsável por manter, evoluir e criar coisas com ou ao redor deste software. Mesma coisa para o nosso RPGOS, ele nasceu com o propósito de criar e crescer na mão da comunidade. *One RPG to rule them all!*. 
 
 #### Plataforma rpgos.net
+
 Disponibilizamos uma plataforma para gestão de todo o conteúdo do RPGOS. Em rpgos.net você poderá buscar por milhares de habilidades, aventuras, cenários, monstros, mapas, NPCs, personagens prontos, mapas e muito mais. Veja o que está bombando, vote no conteúdo que mais curtiu, discuta em nossos foruns e até mesmo ganhe dinheiro vendendo conteúdos exclusivos para nossa comunidade. Sim, nosso intuito é que você possa viver de RPG! É o nosso sonho, pq não pode ser o seu também?
 
 ## Objetivo
+
 A essência do RPGOS é explorar ao **MÁXIMO** a criatividade dos e a flexibilidade para os jogadores fazerem o que quiserem (quer lançar uma bola de fogo e invocar um sundae de morange na cabeça do seu inimigo para que saia fumacinha colorida após atingir? Claro, você pode tentar!), mas sem que o sistema seja extremamente complexo e cheio de regras. Para isso, **Regra número zero do RPGOS**: PARTICIPE! Submeta sugestões e alterações para set de regras, e quem decide incluir ou não aquele conteúdo é a comunidade. Em nossa plataforma rpgos.net você pode votar em todo conteúdo que for gerado pela comunidade.
 
 ## Vamos ao que interessa
+
 ### Como funciona?
+
 Escolhemos o modelo de pontos para governar o sistema, porque acreditamos que ele permita a maior flexibilidade e expressão da criatividade que gostaríamos de promover nas mesas de RPGOS. Tudo é possível dentro de RPGOS, mesmo que um personagem não possua a capacidade de levitar, ele pode tentar! Todas as ações em RPGOS seguem o básico:
 ```
 dado + bonus >= dificuldade
@@ -26,10 +34,13 @@ dado + bonus >= dificuldade
 **Regra número 1 do RPGOS** nada é uma regra. Se você quiser por exemplo que as rolagens de ação sejam menores que a dificuldade (e não menor ou igual a), claro que você pode! Queremos dar o maior poder aos jogadores e narradores, para construirem juntos uma aventura épica (e não seguir caminhos pré-definidos determinados por classes ou arquétipos.
 
 #### Dado
+Os dados de determinada habilidade determinam seu conhecimento, sua capacidade perante determinada situação. Adquirir dados é interessante pois aumenta seu alcance e te permite realizar tarefas mais difícies (não aumenta sua probabilidade de acerto - para isso adquira especialidade).
 
 #### Bonus
+Especialidade, determina quão familiar você com determinada habilidade. É um bonus fixo, ou seja, sempre aumenta sua probabilidade em qualquer disputa daquela habilidade.
 
 #### Dificuldade
+
 Em RPGOS toda a ação possui um valor numérico de dificuldade para ser realizada. Sugerimos que as dificuldades sejam equivalentes aos dados do jogo (4, 6, 8, 10, 12, 20 e 100), sendo a menor, mais fácil até a maior praticamente impossível. As difculdades para realiazar uma ação serão totalmente subjetivas e decidadas pelo narrador durante a aventura. Elas podem inclusive variar de jogador para jogador (se um jogador tiver alguma limitação fisíca, talvez seja mais fácil, aumentar a dificuldade da ação para ele - promovendo até um momento de superação - do que ficar contabilizando bonus e penalidades nas fichas). Fica aqui a menção a **regra número 1**, caso tenham preferência de uma dificuldade fixa para os jogadores e aplicar penalidades nas rolagens ao invés disso.
 
 Outra sugestão para o sistema de dificuldade é o sistema de **disputa**. Como uma ação (com um custo de esforço) o alvo da ação pode fazer algo que modifique a dificuldade (seja para um valor fixo mais alto, seja para uma rolagem de dado). O exemplo mais clássico da disputa é uma jogada básica de ataque. A jogada de ataque em primeiro lugar é (**regra número 1** pode ser) uma rolagem de agilidade física do personagem contra o bonus de agilidade física do inimigo. 
@@ -46,9 +57,22 @@ Ao elaborar as situações de cada ação, o narrador deve entender a natureza d
 
 Incentivamos também a criação de habilidades que facilitem determinadas ações. Um mestre do kung-fu pode por exemplo, combinar sua força física, força mental, agilidade física e agilidade mental para combinar golpes devastadores, tanto em maior chance de acerto, quanto no estrago que vai fazer.
 
+O sistema de dificuldades faz com que cada combate seja único. Veja na sesssão de exemplos de situações para entender a diversidade que a dificuldade acrescenta.
+
 #### Esforço
 
+Toda ação requer um determinado esforço para ser realizada. Não vai achando que seu personagem consegue executar 18 golpes em uma única rodada. Ele até pode conseguir, mas deve ser treinado para isso. O **Esforço** representa o custo de ação e a capacidade de realizar. Assim como as demais regras do RPGOS o esforço é medido em pontos. Cada personagem tem uma quantidade de pontos de esforço que pode gastar por turno. Por exemplo, atacar um inimigo pode custar 2 pontos de esforço dos 3 que o personagem possui. 
+
+Não vamos determinar aqui quantos pontos de esforço começar, ou quanto cada ação deve custar. Vamos deixar isso para nossa comunidade determinar, e que vocês em suas narrativas, tenham a liberdade de definir isso. Quer fazer personagens bem humanos, com 2 de capacidade de esforço? Ou então personagens semi-deuses com capacidade de esforço de 100. A quantidade de esforço vai ser determinada também em cima do custo das habilidades de sua campanha que os personagens querem realizar. Isso dá uma sensação de "nível" do personagem. 
+
+```
+Tibault, está tentando aprender uma magia chamada convocar meteoros, porém por mais que consiga aprendê-la, precisa de um esforço de 30, enquanto tibault só possui esforço 5! Ele pode usar 6 rodadas para evocar a magia? Se vocês entederem que sim! Ou não, personagens não podem realizar ações maiores que seus esforços. Ou melhor ainda! (ver a próxima sessão), apesar de saber como invocar os meteoros, Tibault precisa fazer um teste de superação para conseguir realizar tal proeza sobrehumana.
+```
+
+Em via de regra geral, o esforço é a capacidade do personagem de executar ações. Podemos incrementar (não somente com as rolagens de superação), mas com um sistema de recuperação de esforço (imaginem o esforço como sendo o fôlego do personagem). Então Tibault possui 5 pontos de esforço por rodada, mas recupera apenas 2 a cada nova rodada. Podem haver habilidades que impactem o esforço ou a recuperação do esforço. Para um jogo mais fluido, recomendamos que o esforço seja a capacidade de ações que o personagem consegue realizar.
+
 #### Superação
+
 Só porque uma ação tem dificuldade 10 e personagem só consegue tirar 5 no máximo no dado (1d4 + 1 de FF), não quer dizer que o personagem não consiga realizar qualquer ação. O personagem pode tentar fazer um ato sobrehumano (ultrapassando seus limites) e realizar essa ação em uma situação de extrema dificuldade. Recomendamos que geralmente nessas situações que o personagem ganhe pontos de habilidade, ou então ganhe um aumento de atributo (lembra do nosso mago que levantou uma rocha super pesada? É aqui que ele ganha +1 de Força Física). Vamos estudar mais afundo este exemplo.
 
 ```
@@ -60,8 +84,49 @@ Como funciona:
 - Calcule a diferença entre o alcance e a dificuldade do teste: 10 (dificuldade) - 4 (alcance) = 6 (chamamos este resultado de **diferença**);
 - O personagem deve fazer uma rolagem de *dDiferença*, ou seja, o dado correspondente a diferença (6 aqui no caso 1d6) e deve rolar o resultado máximo deste dado (no caso 6). Qualquer outro resultado ele falha (afinal ele está dando o máximo de si).
 
+##### Probabilidades
+
+Abaixo temos as probabilidades de cada rolagem e seus dados equivalentes (recomendamos fortemente manter as jogadas simples e determinar dificuldades que resultem em rolagens de superação com os dados padrão para facilitar os cálculos)
+
+dado	prob
+4			25%
+6			17%
+8			13%
+10		10%
+12		8%
+20		5%
+
+2 dados:
+resultado	prob
+8					6.3%
+12				2.8%
+16				1.6%
+20				1.0%
+24				0.7%
+40				0.3%
+
+
+Outros resultados de dificuldade e equivalência dos dados
+Dif		Prob		Equiv
+2			50.00%	d4 (3-4)
+3			33.33%	d6 (5-6)
+5			20.00%	d10 (9-0)
+7			14.29%	d8
+9			11.11%	d10
+11		9.09%		d10
+13		7.69%		d12
+14		7.14%		d12
+15		6.67%		2d4
+16		6.25%		2d4
+17		5.88%		2d4
+18		5.56%		2d4
+19		5.26%		d20
+
+
 ##### Consequência
 Indepedente do resultado da superação, ela é uma ação que exige extremo esforço (físico, mental ou os dois). Em caso de **sucesso** o personagem perde 1/4 dos seus pontos de esforço por 1 hora. Em caso de falha (normal, ou seja, qualquer resultado diferente de 1 e do máximo), ele perde metade dos seus pontos de esforço durante 2 horas, e em caso de falha fatal (oh no, alguma coisa deu errado), ele perde 3/4 do seu esforço durante 4 horas! Além disso, em caso de falha, o personagem não pode tentar outra superação nas próximas 6 horas (Lembrem-se da regra **número 1**, se quiserem fazer uma aventura *a la* cavaleiros do zodiaco, onde tudo é na base da superação, fiquem a vontade para remover essa contingência).
+
+Tabela alterantiva de consequências:
 
 ##### Recompensa
 Além de conseguir superar o obstáculo, a superação evolui, melhor, faz o personagem crescer. Fica a critério do narrador quais as recompensas em uma superação bem sucedida, e vamos deixar aqui uma tabela com uma sugesestão de recompensas
@@ -72,55 +137,6 @@ O personagem pode estar sempre tentando se superar e isso vai torná-lo o campe�
 Para isso ele transforma a jogada da seguinte maneira:
 Dado da dificuldade: d2 (equivalante diferença entra a dificuldade e o alcance, mínimo d4, arredondado para o próximo dado)
 
-Exemplos:
-dif 20
-alcance d6 + 2: 8
-diferença: 12
-rolagem: d12 + 8
-
-dif: 8
-alcance: d4 + 2: 6
-diferença: 2 (d2)
-rolagem: 1d4 + 2
-(sempre transformar para o maior dado próximo, com penalidade)
-
-dif: 20
-alcance d8 + 3
-diferença: 20-(8+3)=9
-rolagem: d10 - 1
-
-dif 20
-alcance: d4
-diferença: 16
-rolagem: d20 + 4
-
-dif 20
-alcance: d4 + 1 = 5
-diferença: 15
-rolagem: d20 - 5
-
-Diferença	Rolagem
-1		1d4+3
-2		1d4+2
-3		1d4+1
-4		1d4
-5		1d6+1
-6		1d6
-7		1d8+1
-8		1d8
-9		1d10-1
-10		1d10
-11		1d12-1
-12		1d12
-13		1d20-7
-14		1d20-6
-15		1d20-5
-16		1d20-4
-17		1d20-3
-18		1d20-2
-19		1d20-1
-20		1d20
-
 , em uma jogada de superação, onde ele rola um dado - em que a dificuldade é o resultado máximo do dado, ou seja, dificuldade 8, o personagem rola um 1d8 para tentar superar o obstáculo, onde somente com um 8 ele consegue superar o obstáculo (qualquer dificuldade é aceita desde que haja uma combinação possível de dados e seu resultado máximo, exemplo: dificuldade 24 pode ser elaborada com 4d6, sendo fatalidade 4 e sucesso 24, apesar de não ser proibido é melhor evitar dificuldades não homogeneas).
 
 A consequênica da superação: 
@@ -128,7 +144,21 @@ Sucesso: -1/4 de stamina durante 1 hora;
 Falha: -1/2 de stamina durante 1 hora;
 Fatalidade (resultado mínimo): -3/4 de stamina durante 2 hora;
 
-### Leveless
+##### Jogadas aleatórias
+
+Muitas vezes o jogador não sabe o que fazer, mas mesmo assim dá certo. Caminhar na escuridão, lutar sem os sentidos, jogar poker e por ai vai. Nessa situação o narrador deve definir uma dificuldade em % (quanto maior mais difícil) e o personagem deve fazer uma rolagem de um d100 (2d10) para conseguir realizar o feito (o resultado deve ser maior ou igual a dificuldade). Nenhum bonus é aplicado, pois o jogador está fazendo uma ação sem nenhuma direção, sem nenhum atributo para fortalecê-lo. Normalmente jogadas aleatórias não dão recompensas, mas as vezes se o narrador achar pertinente ele pode recompensar o jogador dada a relevância do feito.
+
+### Habilidades
+
+As habilidade substituem rolagens padrão de atributo (1d4+bonus) para lidar com detarminadas situações, ao qual o personagem já tenha vivenciado, estudado ou adquirido de alguma forma (item, equipamento, pergaminho mágico, maldição, benção, feitiço). Tudo em RPGOS podem ser habilidades: ações, magia, combate, defesa, movimento, conversas, ladinagem, observação, esconder, 
+
+Como dito anteriormente uma pessoa não treinada ou não-**habilidosa** em determinada ação fará uma rolagem inexperiente (1d4) contra a dificuldade daquela ação. Já uma pessoa **habilidosa** ou treinada, que tem alguma experiência sobre aquela ação substituem o dado inexperiente pelo seu dado daquela ação. 
+
+```
+Robert Ludoc está dirigindo seu carro de F1 quando vê Sakato Naboko se aproximando para ultrapassagem. Ludoc vai tentar fazer uma manobra para impedir que Sakato o ultrapasse na última volta da corrida. Obviamente Ludoc tem treinamento em "manobras evasivas com carros de formula 1" e ao invés de fazer um teste (básico) de agilidade mental (para perceber Naboko) e um teste de agilidade física para tentar bloquear a passagem (ambos com d4+bonus), "manobras evasivas com carros de formula 1" da a Ludoc (que é um fenomeno das pistas) 1d12 na rolagem mais seus bonus (combinados) de agilidade física e mental (+1 e +5 respectivamente). O narrador define a dificuldade 12 para evitar a ultrapassagem (ou ele poderia rolar também um dado com as habilidades de Nakobo), e com 1d12+6, Ludoc precisa tirar um 6. Que pena Ludoc, apesar de muito esforço e perícia, Nakobo também é um grande piloto e com um 5 no dado, por um triz, Nakobo ultrapassa Ludoc e vence o GP de Monaco!
+```
+
+##### Leveless
 **Regra número 2 do RPGOS** Não existe nível. Não existe uma progressão linear para seu personagem, ou multiclasses. Ações no jogo geram **pontos de habilidade**.
 Seu mago conseguiu levantar uma rocha extremamente pesada? Ele vai ganhar alguns músculos ali sim! Se ele vai conseguir é outra história. Esses pontos de habilidade são usados para aprender habilidades. Cada habilidade tem um custo para aprender e o jogador deve gastar esses PHs para comprar novas habilidades. Isso abre um leque de eventos e interpretações para a própria evolução do personagem, o aprendizado e crescimento do personagem, passa a ser parte da aventura. 
 
@@ -238,3 +268,11 @@ Gerenciar equipamento em RPGOS também deve ser tão simples quanto criar habili
 
 ```
 ```
+
+## Exemplos de situações
+
+### Cobertura
+
+Vassili Zaitsev está emboscado no cemitério de trens e não consegue encontrar o major Erwin König. Após mais de 12 horas, (e um bem sucedido teste de rastreamento) Vassili vê ao longe o rosto de König em um instante, no reflexo do retrovisor de uma carcaça de um carro abandonado. Vassili calcula que König esteja a mais ou menos 50m de distância dentro de um container abandonado coberto por alguns carros e destroços da cidade bombardeada. É um tiro praticamente impossível, mas vassili é um combatente treinado. Possui a habilidade sniper, que o permite atirar com 1d10. Em relação aos bonus, por seu treinamento em sniper ele é duplamente especialista, adicionando +2 em suas jogadas além dos bonus de força mental, agilidade mental e agilidade física, totalizando +7 (+2 especialista, +1 agilidade física, +2 agilidade mental e +2 força mental)! Antes o narrador pede a Vassili, pelo frio e o tempo sem comida, que ele faça um teste de força mental para estabilizar a arma. Caso de sucesso ele pode realizar o tiro, em caso de falha ele pode atirar mesmo assim, mas será uma jogada aleatória (com dificuldade a ser definida pelo narrador). Vassili possui a habilidade "frieza" o que o permite jogar um 1d8 (além do seu bonus de força mental) para situações extremas do seu corpo, que exigem concentração. O narrador define a dificuldade 4 (dificuldade extrema para seres humanos normais, mas não para Vassili). Ele rola 1d8 +2 (seu bonus de força mental) e sucesso! Um 9 (7+2)! Estabilizou com louvor (em pré testes muito bem sucedidos de dificuldade o narrador pode ainda dar um bonus adicional para o próximo teste do jogador). Pela maestria e concentração de Vassili o narrador decide dar +1 bonus na sua jogada de atirar. Tudo pronto para o tiro. 1d10+8, uma capacidade de atirar totalmente excepcional para um humano. Alcance 18, entrento o narrado diz q dadas as condições de cobertura a dificuldade para acertar König é de 26!!! É um tiro extremamente dificil, mas se há alguém que consegue fazê-lo, esse alguém é Vassili. Ele vai tentar uma superação, para isso a diferença entre a dificuldade e seu alcance é de 8, Vassili precisa de 8 em uma rolagem de 8 para acertar König. E ele consegue!!!!! Vassili rapidamente puxa o gatilho e com um belissimo 8 no dado acerta o olho do major König encerrando a longa batalha.
+
+Para um outro soldado, um soldado raso talvez, poderiamos fazer um setup diferente: como uma dificuldade maior, ou até mesmo a mesma dificuldade sabendo que o soldado só teria 1d4+1 para acertar por exemplo (ficando uma jogada de superação d20 por exemplo), ou então, ele não faz a menor ideia de onde König está e faz uma jogada de tiro aleatória (dificuldade 95 em 100).
