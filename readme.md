@@ -1,5 +1,7 @@
 # RPGOS - Open Source Role Playing Game
 
+Lê-se "erre-pê-gê-ô-esse".
+
 ## Introdução
 
 Já se sentiu frustrado alguma vez quando em sua aventura de RPG você fez algo extraordinário e no fim do dia você ganha a mesma quantidade de XP que seus colegas? Acha muito linear as progressões dos RPGs convencionais? Sente que não consegue criar muito ou reagir de formas diferentes a situações em seu jogo (somente dispel funciona contra aquela barreira de fogo, mas o que acontece se eu jogar um balde d'água)? 
@@ -267,15 +269,30 @@ Trilha:
 
 ### Equipamento
 
-Gerenciar equipamento em RPGOS também deve ser tão simples quanto criar habilidades. E para isso pensamos que os próprios equipamentos concedem habilidades! Uma cota de malha por exemplo adiciona +3 na força física do personagem quando resistindo a ataques físicos, ou mágicos com manifestação física. Não quer dizer que o personagem fica mais forte, mas a dificuldade de causar dano nele fica mais alta.
+Gerenciar equipamento em RPGOS também deve ser tão simples quanto criar habilidades. E para isso pensamos no uso dos equipamentos como o próprio uso de habilidades! 
 
 ```
+Uma cota de malha por exemplo adiciona +3 na força física do personagem quando resistindo a ataques físicos, ou mágicos com manifestação física. Não quer dizer que o personagem fica mais forte, mas a dificuldade de causar dano nele fica mais alta.
 ```
 
 ## Exemplos de situações
 
-### Cobertura
+Alguns exemplos de como lidar com algumas situações em RPGOS.
+
+#### Cobertura
 
 Vassili Zaitsev está emboscado no cemitério de trens e não consegue encontrar o major Erwin König. Após mais de 12 horas, (e um bem sucedido teste de rastreamento) Vassili vê ao longe o rosto de König em um instante, no reflexo do retrovisor de uma carcaça de um carro abandonado. Vassili calcula que König esteja a mais ou menos 50m de distância dentro de um container abandonado coberto por alguns carros e destroços da cidade bombardeada. É um tiro praticamente impossível, mas vassili é um combatente treinado. Possui a habilidade sniper, que o permite atirar com 1d10. Em relação aos bônus, por seu treinamento em sniper ele é duplamente especialista, adicionando +2 em suas jogadas além dos bonus de força mental, agilidade mental e agilidade física, totalizando +7 (+2 especialista, +1 agilidade física, +2 agilidade mental e +2 força mental)! Antes o narrador pede a Vassili, pelo frio e o tempo sem comida, que ele faça um teste de força mental para estabilizar a arma. Caso de sucesso ele pode realizar o tiro, em caso de falha ele pode atirar mesmo assim, mas será uma jogada aleatória (com dificuldade a ser definida pelo narrador). Vassili possui a habilidade "frieza" o que o permite jogar um 1d8 (além do seu bonus de força mental) para situações extremas do seu corpo, que exigem concentração. O narrador define a dificuldade 4 (dificuldade extrema para seres humanos normais, mas não para Vassili). Ele rola 1d8 +2 (seu bonus de força mental) e sucesso! Um 9 (7+2)! Estabilizou com louvor (em pré testes muito bem sucedidos de dificuldade o narrador pode ainda dar um bonus adicional para o próximo teste do jogador). Pela maestria e concentração de Vassili o narrador decide dar +1 bonus na sua jogada de atirar. Tudo pronto para o tiro. 1d10+8, uma capacidade de atirar totalmente excepcional para um humano. Alcance 18, entrento o narrado diz q dadas as condições de cobertura a dificuldade para acertar König é de 26!!! É um tiro extremamente dificil, mas se há alguém que consegue fazê-lo, esse alguém é Vassili. Ele vai tentar uma superação, para isso a diferença entre a dificuldade e seu alcance é de 8, Vassili precisa de 8 em uma rolagem de 8 para acertar König. E ele consegue!!!!! Vassili rapidamente puxa o gatilho e com um belissimo 8 no dado acerta o olho do major König encerrando a longa batalha.
 
 Para um outro soldado, um soldado raso talvez, poderiamos fazer um setup diferente: como uma dificuldade maior, ou até mesmo a mesma dificuldade sabendo que o soldado só teria 1d4+1 para acertar por exemplo (ficando uma jogada de superação d20 por exemplo), ou então, ele não faz a menor ideia de onde König está e faz uma jogada de tiro aleatória (dificuldade 95 em 100).
+
+#### 
+
+## Exemplos de habilidades
+
+Aqui listamos exemplos de habilidades que podem ser utilizadas, modificadas ou ignoradas em suas campanhas. Consulte nosso compendium de habilidades em (rpgos.net)[rpgos.net] para encontrar uma listagem com milhares de habilidades criadas por nossa comunidade.
+
+| Tables        | Are           |
+| ------------- |--------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
